@@ -10,4 +10,3 @@ export const db = new Pool({
   allowExitOnIdle: true
 });
 
-  

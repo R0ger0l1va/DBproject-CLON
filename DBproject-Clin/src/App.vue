@@ -1,19 +1,16 @@
 <template>
- <section class="container">
-  <h2>{{ userName }}</h2>
- </section>
+
+ <router-view></router-view>
+
 </template>
 
-<script lang="ts">
-import { ref } from 'vue';
+<script lang="ts" setup>
 
-export default{
-setup(){
- const uName = ref("Roger");
 
- return{userName: uName}
-}
-}
+
+
+
+
 </script>
 
 <style  scoped>
