@@ -3,9 +3,33 @@
 @tailwind utilities;
 
 .card {
-    background: var(--card-bg);
-    border: var(--card-border);
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 1rem;
+    width:400px;
+}
+
+
+
+body {
+    @apply font-secondary text-slate-700 text-[22px]
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    @apply font-primary 
+}
+
+.h1{
+    @apply text-[64px] lg:text-[84px] leading-none text-yellow-300
+}
+
+
+.h2{
+    @apply text-[50px] leading-tight
+}
+
+
+.h3{
+    @apply text-[25px] 
 }

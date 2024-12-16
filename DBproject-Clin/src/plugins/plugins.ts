@@ -14,9 +14,8 @@ export function usePlugins(app : App)   {
       preset:Aura,
        options:{
       darkModeSelector:'.my-app-dark',
-      cssLayer: false
   }
   }
   })
-  
+
 }

@@ -8,10 +8,10 @@ try {
       "Select * from tbusuarios_read_all()"
   );
   res.json(result.rows);
-} catch (error:any) {
+} catch (error: unknown) {
   console.error("Error al obtener los usuarios:", error);
-  res.status(500).send(error.message);
+  res.status(500).send(error);
 }
 
-  
+
 }
