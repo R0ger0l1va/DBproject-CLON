@@ -9,10 +9,10 @@
         <span>Its Clear of the first thing u will see is this because is amazing</span>
       </div>
       <div v-animateonscroll="{enterClass: 'animate-zoomin', leaveClass:'animate-fadeout'}"  class="flex text-[10px] pt-4">
-        <Button class="!text-[30px] hover:!bg-white !text-blue-600 bi bi-facebook" variant="text"/>
-        <Button class="!text-[30px] hover:!bg-white !text-pink-600 bi bi-instagram" variant="text"/>
-        <Button class="!text-[30px]  hover:!bg-white bi bi-whatsapp" variant="text"/>
-        <Button class="!text-[30px] hover:!bg-white !text-black bi bi-github" variant="text"/>
+        <Button class="!text-[30px] hover:!bg-white !text-blue-600 bi bi-facebook" variant="text" as="a"  href="https://www.facebook.com/ricardo.cintasdiaz?locale=es_LA" />
+        <Button class="!text-[30px] hover:!bg-white !text-pink-600 bi bi-instagram" variant="text" as="a" href="https://www.instagram.com/13.celeto/profilecard/?igsh=MWV4aTZ2YjNxOXpqdw=="/>
+        <Button class="!text-[30px]  hover:!bg-white bi bi-whatsapp" variant="text" as="a" href="https://chat.whatsapp.com/DZZA5TBu7odK6TkqhVxq6K"/>
+        <Button class="!text-[30px] hover:!bg-white !text-black bi bi-github" variant="text" as="a" href="https://github.com/R0ger0l1va/DBproject-CLON"/>
       </div>
 
     </div>
